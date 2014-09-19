@@ -8,7 +8,9 @@
     "I've heard of code smells, but this stinks like a week old 747 crash site",
     "If I were human you'd have to bribe me to merge this code",
     "Get a job as a travel blogger and go far away",
-    "This code is not worth the electricity I wasted to test it"
+    "This code is not worth the electricity I wasted to test it",
+    "When I test crap code, I never get those microseconds back.",
+    "Buggy buggy buggy. I can't do continuous integration with continuous infestation."
   ],
   "praise": [
     "That is some awesome code",
