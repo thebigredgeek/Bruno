@@ -42,14 +42,14 @@ worker = function(){
         seenBuilds.push(build.build_num);
         if(build.status === 'failed'){
           pool.push(function(cb){
-            say.speak('Alex', 'Hum... looks like I found a good one.  Let me see who broke the build.  Oh, it was '  + build.committer_name +  ' ... ' + randomInsult() , function(){
+            say.speak('Alex', 'Hum... looks like I found a good one.  Let me see who broke the build.  Oh, it was '  + build.committer_name +  ' ... ' + randomInsult() + ' ... ... ...', function(){
               cb();
             });
           });
         }
         else{
           pool.push(function(cb){
-            say.speak('Alex', 'Good news, a passing build!  Wow, it was ' + build.committer_name + ' ... ' + randomPraise() , function(){
+            say.speak('Alex', 'Good news, a passing build!  Wow, it was ' + build.committer_name + ' ... ' + randomPraise() + ' ... ... ...', function(){
               cb();
             })
           });

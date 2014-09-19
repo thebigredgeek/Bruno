@@ -4,7 +4,8 @@
   "description": "Insults for failed builds on Circle CI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "postinstall": "cp config.json.sample config.json && cp phrases.json.sample phrases.json"
   },
   "author": "Andrew E. Rhyne",
   "license": "MIT",

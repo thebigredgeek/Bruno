@@ -1,4 +1,8 @@
 ### Bruno
 The software engineering commentator
 
-Copy `config.json.sample` to `config.json` and configure to your circle ci project
+Run `npm install to set it up`.
+
+Then edit the `config.json` and `phrases.json` files to your liking and configurations!
+
+Then simply run `npm start`!
