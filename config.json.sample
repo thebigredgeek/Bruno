@@ -1,0 +1,5 @@
+{
+  "auth": "CIRCLE-CI-AUTH-TOKEN",
+  "username": "CIRCLE-CI-USERNAME",
+  "project": "CIRCLE-CI-PROJECT"
+}
